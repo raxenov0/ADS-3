@@ -14,7 +14,7 @@ int cbinsearch(int *arr, int size, int value) {
     } else if (arr[mid] > value) {
       last = mid - 1;
     }
-  }	
+  }
   if (index != -1) {
     int start = index;
     int count = 0;
